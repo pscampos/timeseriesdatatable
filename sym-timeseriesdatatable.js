@@ -58,6 +58,8 @@
 				}
 			}
 			
+			scope.Timestamp.sort();
+			
 			for(var i=0; i< scope.ColumnsRaw.length; i++){
 				if(scope.ColumnsRaw.length > scope.Headers.length-1){
 					if(scope.Headers[i+1] == undefined){						
